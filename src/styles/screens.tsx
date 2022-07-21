@@ -36,7 +36,7 @@ export const style = StyleSheet.create({
   },
   itemText: {
     color: "white",
-    fontSize: 16,
+    fontSize: 22,
   },
   modal: {
     top: "30%",
@@ -59,6 +59,7 @@ export const style = StyleSheet.create({
   },
   lots: {
     width: "100%",
+    paddingLeft: 20,
   },
   info: {
     fontSize: 18,
@@ -70,5 +71,16 @@ export const style = StyleSheet.create({
     fontSize: 18,
     fontWeight: "500",
     padding: 10,
+  },
+  getSpot: {
+    padding: 15,
+    backgroundColor: "#231942",
+    borderRadius: 10,
+    alignItems: "center",
+  },
+  getSpotText: {
+    color: "white",
+    fontWeight: "500",
+    fontSize: 18,
   },
 });
